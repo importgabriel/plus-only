@@ -1,2 +1,3 @@
-# plus-only
-Build a calculator app that can only add
+# App
+
+Built by [Agent Switch](https://theswitchai.com/code).
