@@ -1,9 +1,9 @@
-import "./globals.css";
 import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "App",
-  description: "Built by Agent Switch",
+  title: "Addition Calculator",
+  description: "A simple calculator that adds two numbers together.",
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="min-h-screen bg-slate-50 antialiased">{children}</body>
     </html>
   );
 }
